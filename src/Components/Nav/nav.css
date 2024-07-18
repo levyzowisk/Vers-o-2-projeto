@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navigation {
+    border: 2px solid red;
+    display: flex;
+    padding: 30px;
+}
+
+#navigation > li  {
+    list-style-type: none;
+    margin-left: 15px;
+    /* border: solid 2px red; */
+}
+
