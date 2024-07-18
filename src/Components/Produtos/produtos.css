@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+
+section{
+    /* margin: 0em 2rem; */
+}
+.sec01{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.sectionTitle{
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    color: rgba(71, 71, 71, 1);
+}
+.sec01  button{
+    background-color:white;
+    border: none;
+
+}
+.textIcon{
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    
+}
+
+.textIcon button{
+    color: rgba(201, 32, 113, 1);
+}
+.textIcon img{
+    height: 1.3em;
+
+}
