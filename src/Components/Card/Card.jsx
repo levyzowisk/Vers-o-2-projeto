@@ -1,5 +1,5 @@
 import Tenis from "../../assets/Tenis.png"
-
+import './Card.css'
 function Card(props) {
     return(
         <div className="cardContainer">
@@ -8,8 +8,11 @@ function Card(props) {
             </div>
             
             <h5>{props.nome}</h5>
-            <p>{props.descricao}</p>
-            <p>{props.valor}</p>
+            <p className="descricao">{props.descricao}</p>
+            <div className="descValor">
+                <p className="desconto">{props.desconto}</p>
+                <p className="valor">{props.valor}</p>
+            </div>
                 
         </div>
     )

@@ -1,5 +1,7 @@
 import Right from "../../assets/Right.png"
 import './produtos.css'
+import StyleCard from "../StyleCard/StyleCard"
+
 function Produtos(){
     return(
         <>
@@ -10,15 +12,15 @@ function Produtos(){
             </div>
             
             <div className="textIcon">
-            <button> Ver todos </button>
-            <img src={Right} alt="" />
+            <button> Ver todos {<img src={Right} alt="" />} </button>
+            
             </div>
             </div>
-
+            <StyleCard/>
             
 
         </section>
         </>
     )
 }
-export default Produtos
+export default Produtos 
