@@ -5,10 +5,10 @@ function Nav() {
     return (
         <>
             <section id="navigation">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/" >Produto</Link></li>
-                <li><Link to="/" >Categorias</Link></li>
-                <li><Link to="/" >Meus Pedidos</Link></li>
+                <li><Link to="/" id="link">Home</Link></li>
+                <li><Link to="/" id="link">Produto</Link></li>
+                <li><Link to="/" id="link">Categorias</Link></li>
+                <li><Link to="/" id="link">Meus Pedidos</Link></li>
             </section>
         </>
     )
