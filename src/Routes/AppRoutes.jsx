@@ -8,8 +8,10 @@ function AppRoutes() {
         <BrowserRouter>
         <Routes>
           <Route>
-          <Route index element={<HomePage/>}/>
-          {/* <Route path='/' element={#}/> */}
+          <Route index path="/" element={<HomePage/>}/>
+          {/* <Route path='/Produto' element={#}/> */}
+          {/* <Route path='/Categorias' element={#}/> */}
+          {/* <Route path='/Meus Pedidos' element={#}/> */}
           </Route>
         </Routes>
         </BrowserRouter>

@@ -1,14 +1,14 @@
 import { useState } from 'react'
+import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 import Produtos from '../Components/Produtos/Produtos'
-
-// import StyleCard from '../Components/StyleCard/StyleCard'
+import Nav  from '../Components/Nav/Nav'
 
 function HomePage() {
   return (
-    <>
+    <><Header></Header>
+    <Nav></Nav>
       <Produtos/>
-      {/* <StyleCard/> */}
       <Footer></Footer>
 
     </>
