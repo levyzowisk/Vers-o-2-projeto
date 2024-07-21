@@ -57,6 +57,8 @@ header {
     height: 34px;
     border-radius: 7px;
     background-color: #C92071;
+    display: flex;
+    align-items: center;
 }
 
 #Btn-Enter:hover {
