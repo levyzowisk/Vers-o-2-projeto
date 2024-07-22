@@ -6,10 +6,12 @@
     font-family: "Inter", sans-serif;
 }
 
+
 #navigation {
     display: flex;
-    margin-left: 2.4rem;
-    padding: 0.7rem 2rem;
+    /* margin-left: 2.4rem; */
+    padding: 1rem 8.5rem;
+    background-color: white;
 }
 
 #navigation > li  {

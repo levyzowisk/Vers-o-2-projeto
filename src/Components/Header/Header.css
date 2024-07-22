@@ -12,6 +12,7 @@ header {
     align-items: center;
     height: 80px;
     padding: 50px;
+    background-color: white;
 }
 
 #Logo-Img-Digital > img {

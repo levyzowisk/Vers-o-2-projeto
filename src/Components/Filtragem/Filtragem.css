@@ -1,0 +1,21 @@
+.filsec01{
+    display: flex;
+    padding: 3rem 4rem;
+    justify-content: space-between;
+}
+body{
+    background-color: #F9F8FE;
+}
+
+.ordenar{
+    display: flex;
+    border: 1.8px #474747 solid;
+    padding: 0.6rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    gap: 0.5em;
+    
+}
+.ordenar img{
+    height: 0.7rem;
+}
