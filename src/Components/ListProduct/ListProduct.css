@@ -1,4 +1,38 @@
 .listproduct{
     display: flex;
     justify-content: space-around;
+    
 }
+.formCheckbox{
+    padding: 0.9rem 2rem;
+    border: 1px red solid;
+}
+.hrcheckbox hr{
+    /* margin: 1rem 0.4rem; */
+    border: solid #CCCCCC;
+    border-width: 1px;
+    width: 10rem;
+    
+
+}
+
+.formCheckbox01 h5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #474747;
+}
+.formCheckbox01 div{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .formCheckbox01 input:checked{
+    background-color: #C92071;
+} */
+
+input[type='checkbox'] {
+    accent-color: #C92071;
+    width: 1.5rem;
+
+  }

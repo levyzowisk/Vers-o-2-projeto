@@ -56,6 +56,14 @@
     color: #474747;
 }
 
+#Paragraph p {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.75px;
+    width: 589px;
+    line-height: 28px;
+}
+
 #Btn-Ofert {
         display: flex;
         align-items: center;
