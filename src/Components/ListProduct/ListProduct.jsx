@@ -1,5 +1,6 @@
 import "./ListProduct.css"
-import Produtos from "../Produtos/Produtos"
+// import Produtos from "../Produtos/Produtos"
+import StyleProductCard from "../StyleProductCard/StyleProductCard"
 function ListProduct () {
     return(
         <div className="listproduct">
@@ -8,7 +9,7 @@ function ListProduct () {
                 <hr className="hrcheckbox" />
 
                 <div className="formCheckbox01">
-                    <h5>Marka</h5>
+                    <h4>Marka</h4>
                     
                     <div>
                         <input type="checkbox" name="" id="" />
@@ -38,7 +39,7 @@ function ListProduct () {
                 </div>
 
                 <div className="formCheckbox01">
-                    <h5>Categoria</h5>
+                    <h4>Categoria</h4>
                     
                     <div>
                         <input type="checkbox" name="" id="" />
@@ -64,7 +65,7 @@ function ListProduct () {
                 </div>
 
                 <div className="formCheckbox01">
-                    <h5>Gênero</h5>
+                    <h4>Gênero</h4>
                     
                     <div>
                         <input type="checkbox" name="" id="" />
@@ -84,7 +85,7 @@ function ListProduct () {
                 </div>
 
                 <div className="formCheckbox01">
-                    <h5>Estado</h5>
+                    <h4>Estado</h4>
                     
                     <div>
                         <input type="checkbox" name="" id="" />
@@ -101,8 +102,11 @@ function ListProduct () {
                 </div>
 
             </div>
-            <Produtos/>
-            
+            <div>
+            <StyleProductCard></StyleProductCard> 
+
+            </div> 
+
             
 
         </div>

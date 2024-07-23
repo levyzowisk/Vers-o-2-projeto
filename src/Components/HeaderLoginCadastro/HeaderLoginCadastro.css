@@ -1,0 +1,10 @@
+.HeaderLoginCadastro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.HeaderLoginCadastro img{
+    height: 2em;
+}
